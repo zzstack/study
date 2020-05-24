@@ -1,0 +1,13 @@
+{
+  "extends": "./node_modules/@sentry/typescript/tsconfig.json",
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "lib": ["es7", "dom"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "es6"
+  }
+}

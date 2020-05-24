@@ -1,0 +1,20 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "test for electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --enable-logging"
+  },
+  "gypfile": true,
+  "include_dirs": [
+    "<!(node -e \"require('nan')\")"
+  ],
+  "dependencies": {
+    "binding": "^3.0.3",
+    "bindings": "^1.5.0",
+    "electron": "^4.1.3",
+    "electron-rebuild": "^1.8.4",
+    "nan": "^2.13.2"
+  }
+}
