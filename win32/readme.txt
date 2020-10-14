@@ -1,0 +1,1 @@
+SingletonInDll: 测试两个DLL引用同一个lib里面的单例，是否是同一个单例
